@@ -45,3 +45,6 @@ int main(){
     cout<<ans;
     return 0;
 }
+
+// it is a tough dp prblm
+// refer copy notes for explanation
