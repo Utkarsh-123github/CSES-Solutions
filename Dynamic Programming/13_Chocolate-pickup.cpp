@@ -53,3 +53,6 @@ int solve(int n, int m, vector<vector<int>>& grid) {
     vector<vector<vector<int>>>dp(n,vector<vector<int>>(m,vector<int>(m,-1)));
     return fn(grid,dp,n,m,0,0,m-1);
 }
+
+// TC = O(n*m*m)
+// SC = O(n*m*m)
